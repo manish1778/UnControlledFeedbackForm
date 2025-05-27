@@ -1,0 +1,131 @@
+/* 1. Set sky blue background */
+body {
+    background-color: rgb(152, 199, 217);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form */
+.container {
+    max-width: 400px;
+    height: 600px;
+    margin: 50px auto;
+    padding: 20px 40px 20px 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(176, 254, 124);
+}
+
+h1{
+    color:rgb(165, 70, 7)
+}
+p span{
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+/* Style labels */
+.label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Style form inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    border-radius: 40px;
+
+}
+
+
+/* Focus effect for inputs */
+input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Error messages */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -5px;
+    text-align: left;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    width: 90%;
+    background: #1229d4;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border: none;
+    margin: 20px 10px;
+}
+
+input[type="submit"]:hover {
+    background: #b910e3;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        max-width: 90%;
+        padding: 15px;
+    }
+    
+    input {
+        font-size: 14px;
+    }
+    
+    input[type="submit"] {
+        font-size: 16px;
+    }
+}
+
+/* CSS For Icons*/
+
+.social-icons {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.facebook {
+    color: #1877F2;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.telegram {
+    color: #0088cc;
+}
